@@ -1,0 +1,109 @@
+
+.home_main_page
+{
+    width:98.9vw;
+    height:90vh;
+    background-color: #49c5b6;
+    overflow-x:hidden;
+}
+.home_main_page_content 
+{
+ font-size:50px;  
+ font-weight: 700;
+ padding-top: 10%;
+ padding-left: 10%;
+ width:45%;   
+ margin:auto;
+}
+.line_1_home_main_page_content
+{
+    animation:line_one 3s infinite;
+    color:white;
+}
+@keyframes line_one  {
+  0%   {color:black;}
+  30%  {color:black;}
+  60%  { color:white;}
+  100% { color:white; }
+  
+}
+.line_2_home_main_page_content
+{
+    animation:line_two 3s infinite;
+    color:white;
+}
+@keyframes line_two {
+  0%   {color:white;}
+  30%  {color:white;}
+  60%  { color:black;}
+  100% { color:white; }
+  
+}
+
+.line_3_home_main_page_content
+{
+    animation:line_three 3s infinite;
+    color:white;
+}
+@keyframes line_three {
+  0%   {color:white;}
+  30%  {color:white;}
+  60%  { color:white;}
+  100% { color:black; }
+  
+}
+
+
+
+@media only screen and (max-width: 1170px) 
+{
+.home_main_page_content 
+{
+font-size:45px;
+width:60%;  
+}
+}
+@media only screen and (max-width: 795px) 
+{
+.home_main_page_content 
+{
+ padding-top: 20%;
+padding-left: 5%;
+font-size:45px;
+width:80%;  
+}
+}
+@media only screen and (max-width: 600px) 
+{
+.home_main_page_content 
+{
+    padding-top: 40%;
+font-weight: 600;
+padding-left: 10%;
+font-size:40px;
+width:90%;  
+}
+}
+@media only screen and (max-width: 485px) 
+{
+.home_main_page_content 
+{
+     padding-top: 40%;
+font-weight: 600;
+padding-left: 10%;
+font-size:35px;
+width:100%;  
+}
+}
+@media only screen and (max-width: 425px) 
+{
+.home_main_page_content 
+{
+    padding-top: 50%;
+font-weight: 600;
+padding-left: 10%;
+font-size:30px;  
+}
+}
+
+
